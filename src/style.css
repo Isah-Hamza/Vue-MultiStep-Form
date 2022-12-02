@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #eee;
+}
+input[type="text"],
+input[type="email"] {
+  @apply border px-3 py-2 text-sm outline-none;
+}
